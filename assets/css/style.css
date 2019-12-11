@@ -18,10 +18,11 @@
     line-height: 90px;
     text-align: center;
     background: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif; ;
 }
 
 .heading {
-    padding-top: 120px;
+    padding-top: 180px;
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
