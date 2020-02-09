@@ -1,28 +1,52 @@
-.mainnav {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: #ffffff;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
+body{
+    background-image: url(../images/background-blur-clean-clear-531880.jpg);
 }
 
-#me {
-    float: left;
-    width: 400px;
-    height: 90px;
+#brand {
+    color: lightskyblue;
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
-    text-align: center;
-    background: #4aaaa5;
-    font-family: Georgia, Times, "Times New Roman", serif; ;
 }
 
-.heading {
-    padding-top: 180px;
-    color: #4aaaa5;
-    font-family: Georgia, Times, "Times New Roman", serif;
+#navbar{
+    font-family: 'Oleo Script', cursive;
 }
+
+.nav-btn{
+    font-size: 18px;
+    color: white;
+}
+
+#declare{
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+#who {
+    font-family: 'Oleo Script', cursive;
+    font-size: 24px;
+}
+
+#jumbo{
+    background-color: rgb(191, 243, 247);
+
+}
+
+#about{
+    color: rgb(3, 3, 3);
+    font-size: 24px;
+    text-shadow: rgb(159, 159, 163);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1000;
+}
+
+.media{
+    display: inline-block;
+    display: center;
+}
+
+.portIMG{
+    padding: 50px;
+}
+
+

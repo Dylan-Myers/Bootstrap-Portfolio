@@ -6,76 +6,42 @@
 <title>Dylan Myers</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script|Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div class="container">
-        <div class="row">
-          <div class="mainnav">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="col-md-3" id="me">
-                <a class="navbar-brand text-white" href="#">Dylan Myers</a>
-              </div>
-              <div class="col-lg-6"></div>
-                <div>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav mr-auto">          
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>    
-            </nav>
-          </div>
-        </div> 
 
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="heading">
-            <h2>About</h2>
-          </div>
-        </div>
-          <br>
-        <div clas="row">
-            <div class="media">
-              <div class="col-md-2"></div>
-                <img src="assets/images/unnamed.jpg" class="mr-3" alt="Dylan Myers" Style="width:200px; height:150px;">
-                <div class="col-md-8">
-                    <p>I grew up in a small town in Wisconsin and spent a lot of time outdoors.
-                      by the time I was in highschool I was playing computer games quite a lot and 
-                      built my first computer when I was a freshmen. After graduating I spent a few
-                      years traveling and working on a National Geographic expedition ship. When life
-                      at sea started to get old I decided to to get a degree in Computer Science. I am 
-                      currently working to complete that degree and will be graduating in early 2021.
-                    </p>
-                </div>
-              <div class="col-md-2"></div> 
-            </div>
-        </div>
-        
-
-
-
-
-
-
-
-
-
-
+<body> 
+  <nav id="navbar" class="navbar navbar-expand-lg bg-dark" style="opacity: 70%;">
+    <a class="navbar-brand" href="#"><h3 id="brand" >Dylan Myers</h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-btn collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-btn nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-btn nav-item nav-link" href="portfolio.html">Recent Projects</a>
+       <!-- <a class="nav-btn nav-item nav-link" href="contact.html">Contact Me</a> -->
+      </div>
+    </div>
+  </nav>
+  <div id="jumbo" class="jumbotron jumbotron-fluid"style="opacity: 75%; ">
+    <div class="container">
+      <h1 id="declare" class="display-4 text-center">Myers Web Development</h1>
+      <p id="who" class="text-center">I am a freelance web developer based out of Madison, WI. If you are looking for a custom website for you or your business I would love to help. I can help grow your brand or orgainization. Please contact me to dsicuss your ideas and goals.</p>    
+    </div>
   </div>
-
-
-
+  <div class="media">
+    <img src="assets/images/unnamed.jpg" class="align-self-start mr-3 " alt="Dylan Myers" style="width: 400px; height: 350px;">
+  </div>
+  <div id="about">
+    <p>I grew up in a small town in Wisconsin and spent a lot of time outdoors.
+      by the time I was in highschool I was playing computer games quite a lot and 
+      built my first computer when I was a freshmen. After graduating I spent a few
+      years traveling and working on a National Geographic expedition ship. When life
+      at sea started to get old I decided to to get a degree in Computer Science. I am 
+      currently working to complete that degree and will be graduating in early 2021</p>
+  </div>
 </body>
 </html>
