@@ -42,11 +42,16 @@ body{
 
 .media{
     display: inline-block;
-    display: center;
+    display: 
 }
 
 .portIMG{
     padding: 50px;
+}
+
+.banners{
+    color: rgb(34, 33, 33);
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 
